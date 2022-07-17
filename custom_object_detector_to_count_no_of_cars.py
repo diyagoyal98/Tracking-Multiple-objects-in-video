@@ -9,7 +9,7 @@ od=ObjectDetection() #Making object
 
 cap=cv2.VideoCapture("los_angeles.mp4")  #This is to read the video file
 
-count=0    #This is for counting the number of cars 
+count=0    #This is for counting the number of Frames 
 centre_points_prev=[]
 tracking_objects={}
 trak_id=0
